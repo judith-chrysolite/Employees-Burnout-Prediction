@@ -2,10 +2,10 @@
 ### Overview
 The project focuses on predicting employee burnout using regression techniques. The goal is to identify employees at risk of burnout by analyzing various factors.
 ### What is Employee Burnout? 
-  #### Defining Burnout :- 
+  ### Defining Burnout :- 
           Employee burnout is a state of physical, emotional, and mental exhaustion caused by prolonged stress. It leads to decreased productivity, poor job performance, and negative impacts on health and well-being.
 
- #### Why is it Important?
+ ### Why is it Important?
         Burnout affects not only individual employees but also the overall efficiency and atmosphere of the workplace. Addressing burnout is crucial for maintaining a productive and healthy workforce.
 
 # Dataset Overview

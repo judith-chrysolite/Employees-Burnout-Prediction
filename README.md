@@ -63,3 +63,33 @@ The project focuses on predicting employee burnout using regression techniques. 
 7. **Documentation and Reporting**:
    - **Report Findings**: Document the process, results, and recommendations.
    - **Present Results**: Create a presentation or report for stakeholders.
+  
+     # Final Result
+
+ Linear Regression Model Performance Metrics:
+
+Mean Squared Error: 0.0031569779113610717
+Root Mean Squared Error: 0.0561869905882231
+Mean Absolute Error: 0.04595032032644773
+R-squared Score: 0.918822674247248
+Based on the evaluation metrics, the Linear Regression model appears to be the best model for predicting burnout analysis.
+
+It has the lowest mean squared error, root mean squared error, and mean absolute error, indicating better accuracy and precision in its predictions. Additionally, it has the highest R-squared score, indicating a good fit to the data and explaining a higher proportion of the variance in the target variable.
+
+So we are choosing this model for deployment.
+
+# Future Work
+Future work in employee burnout prediction includes enhancing models with advanced algorithms and interpretability techniques, integrating diverse data sources, ensuring robust data privacy, and developing systems for real-time monitoring and intervention. This will make our predictions faster although it doesn't seem to be a problem in this case.
+
+Other things to prove is trying other linear models and more complex ones, although the relationship within the input features and target is very linear. For this, we could try:
+
+Multivariate Adaptive Regression Splines
+Deep Neural Network
+KNN Regressor
+Decision Tree Regressor
+Random Forest Regressor
+Gradient Boosting Regressor
+
+# Conclusion
+In this project, which was part ofDomain AI&ML the final project for the course Supervised Machine Learning: Regression from the IBM Machine Learning Professional Certificate, we created a python notebook to predict employee burnout using burn rate regression and EDA. The features we used included mental fatigue score, work from home status, and workload. To prepare the data for analysis, we treated null values and encoded categorical variables. We also studied correlations and applied techniques such as grid search cross validation to the data. We then used the R2 metric to evaluate the performance of our model. Overall, the goal of this project was to build a model that could accurately predict burnout risk and potentially be used by organizations to prevent burnout and promote the well-being of their employees.
+      

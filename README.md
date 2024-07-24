@@ -69,9 +69,13 @@ The project focuses on predicting employee burnout using regression techniques. 
  Linear Regression Model Performance Metrics:
 
 Mean Squared Error: 0.0031569779113610717
+
 Root Mean Squared Error: 0.0561869905882231
+
 Mean Absolute Error: 0.04595032032644773
+
 R-squared Score: 0.918822674247248
+
 Based on the evaluation metrics, the Linear Regression model appears to be the best model for predicting burnout analysis.
 
 It has the lowest mean squared error, root mean squared error, and mean absolute error, indicating better accuracy and precision in its predictions. Additionally, it has the highest R-squared score, indicating a good fit to the data and explaining a higher proportion of the variance in the target variable.

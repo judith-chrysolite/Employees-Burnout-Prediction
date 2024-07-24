@@ -24,8 +24,11 @@ The project focuses on predicting employee burnout using regression techniques. 
 
     # Libraries Used
      1.Pandas:- Data manipulation and analysis
+   
      2.NumPy :- NumPy Numerical operations
+   
      3.Matplotlib & Seaborn :- Data visualization
+   
      4.Scikit-learn :- Machine learning and model evaluation 
 
 ### Steps to Approach the Project

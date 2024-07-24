@@ -23,10 +23,10 @@ The project focuses on predicting employee burnout using regression techniques. 
 9. **Burn Rate**: Target variable indicating burnout rate (0.0 to 1.0).
 
     # Libraries Used
-     Pandas:- Data manipulation and analysis
-     NumPy :- NumPy Numerical operations
-     Matplotlib & Seaborn :- Data visualization
-     Scikit-learn :- Machine learning and model evaluation 
+     1.Pandas:- Data manipulation and analysis
+     2.NumPy :- NumPy Numerical operations
+     3.Matplotlib & Seaborn :- Data visualization
+     4.Scikit-learn :- Machine learning and model evaluation 
 
 ### Steps to Approach the Project
 

@@ -66,21 +66,18 @@ The project focuses on predicting employee burnout using regression techniques. 
   
      # Final Result
 
- Linear Regression Model Performance Metrics:
+ Final Best Model Performance Metrics:
 
-Mean Squared Error: 0.0031569779113610717
+Mean Squared Error: 0.0033805043313928735
+Root Mean Squared Error: 0.05814210463504803
+Mean Absolute Error: 0.045886944812909815
+R-squared Score: 0.9130750011488813
+Based on the evaluation metrics, the Random Forest Regressor appears to be the best model for predicting burnout analysis.
 
-Root Mean Squared Error: 0.0561869905882231
+It has the lowest mean squared error (MSE), root mean squared error (RMSE), and mean absolute error, indicating better accuracy and precision in its predictions.
 
-Mean Absolute Error: 0.04595032032644773
+While Linear Regression has a slightly higher R-squared score, the Random Forest Regressor offers both better predictive performance and valuable feature importance insights, making it the most effective choice for forecasting and addressing employee burnout. This model's robust performance and ability to identify key burnout factors provide a comprehensive solution for targeted interventions.
 
-R-squared Score: 0.918822674247248
-
-Based on the evaluation metrics, the Linear Regression model appears to be the best model for predicting burnout analysis.
-
-It has the lowest mean squared error, root mean squared error, and mean absolute error, indicating better accuracy and precision in its predictions. Additionally, it has the highest R-squared score, indicating a good fit to the data and explaining a higher proportion of the variance in the target variable.
-
-So we are choosing this model for deployment.
 
 # Future Work
 Future work in employee burnout prediction includes enhancing models with advanced algorithms and interpretability techniques, integrating diverse data sources, ensuring robust data privacy, and developing systems for real-time monitoring and intervention. This will make our predictions faster although it doesn't seem to be a problem in this case.
@@ -89,9 +86,7 @@ Other things to prove is trying other linear models and more complex ones, altho
 
 Multivariate Adaptive Regression Splines
 Deep Neural Network
-KNN Regressor
 Decision Tree Regressor
-Random Forest Regressor
 Gradient Boosting Regressor
 
 # Conclusion
